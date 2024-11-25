@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "outDir": "./dist" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+
+    "module": "commonjs",
+    "rootDir": "./src" /* Specify what module code is generated. */,
+
+    /* Emit */
+    /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "typeRoots": ["./node_modules/@types"],
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+    /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/**/*"]
+}
