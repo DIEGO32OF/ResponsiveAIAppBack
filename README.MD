@@ -1,29 +1,29 @@
 # TodoList App
-Este proyecto esta construido con la version 18.19.1 de Node, se configuro Typescript como lenguaje base y estas son algunas de las librerias utiliza:
+This project is built with Node version 18.19.1, Typescript was configured as the base language and these are some of the libraries it uses:
 
 **Cors**
-- Se creo una lista blanca de posibles sitios que pueden consumir las apis de esta aplicacion
-- Ademas se pueden configurar otras caracteristicas como los metodos de acceso y tipos de archivos que se reciben
+- A white list of possible sites that can consume the APIs of this application was created
+- In addition, other characteristics such as access methods and types of files received can be configured
 
 **Helmet**
-- La funcion principal de esta libreria es NO exponer cabeceras sensibles en los headers que pueden se utilizadas para ataques
+- The main function of this library is NOT to expose sensitive headers in the headers that can be used for attacks
 
 **Morgan**
-- Es un logger donde podemos incluso crear querys si se busca algo especifico
+- It is a logger where we can even create queries if we are looking for something specific
 
 **Express**
-- es un framework que corre bajo Node a mi gustao es el mas popular por eso se incluyo en la app pero a mi gusto estaria mejor Nest.js
+- It is a framework that runs under Node, in my opinion it is the most popular, that is why it was included in the app, but in my opinion Nest.js would be better
 
 **Mongoose**
-- Controlador para conectarse a MongoDB e interactuar con la base de datos
+- Controller to connect to MongoDB and interact with the database
 
 **Type ORM**
-- Tambien se incluyo un ORM para bases de datos SQL solo como ejemplo
+- An ORM for databases was also included SQL data only as an example
 
 ## Run proyect dev
-- para ejecutar el proyecto:
+- to run the project:
 ``npm run:dev ``
 
 ## Docker
-- se incluyo en el proyecto un docker file para hacer un deploy automatizado
+- a docker file was included in the project to do an automated deployment
 
