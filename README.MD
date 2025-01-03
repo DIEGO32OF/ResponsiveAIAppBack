@@ -1,4 +1,4 @@
-# TodoList App
+# ResponsiveAI App
 This project is built with Node version 18.19.1, Typescript was configured as the base language and these are some of the libraries it uses:
 
 **Cors**
